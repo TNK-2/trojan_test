@@ -41,8 +41,8 @@ class GitImporter:
         return module
  
 def connect_to_github():
-    gh = login(username='Yu-s', password='Yuuu451993')
-    repo = gh.repository('username', 'repository_name')
+    gh = login(username='Yu-s', password='Ishi1993v')
+    repo = gh.repository('Yu-s', 'trojan_test')
     branch = repo.branch('master')
  
     return gh, repo, branch
